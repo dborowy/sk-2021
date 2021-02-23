@@ -47,10 +47,10 @@
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      |         |  |
-| Maska podsieci|  |     |
-| Brama         |         |  |
-| DNS 1         |       |      |
+| Adres IP      | 10.0.2.15/24        | ip addr |
+| Maska podsieci| /24 255.255.255.0 | 11111111.11111111.11111111.0    | ip addr |
+| Brama         |  10.0.2.2       | ip route show |
+| DNS 1         |    172.16.1.1   |  cat /etc/resolv.conf    |
 | DNS 2         |          |    |
 
 ### Schemat sieci
